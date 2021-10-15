@@ -5,9 +5,11 @@ import {terser} from 'rollup-plugin-terser';
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: 'main.js',
+  input: 'olgm.js',
   output: [
-    {file: 'bundle.js', format: 'iife', sourcemap: true}
+    {file: 'olgm.min.js',
+     format: 'es'
+     }
   ],
   plugins: [
     node(),
