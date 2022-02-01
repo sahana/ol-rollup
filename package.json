@@ -15,7 +15,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "ol": "latest",
+    "ol": "^6.12.0",
     "olgm": "^1.7.1"
   }
 }
