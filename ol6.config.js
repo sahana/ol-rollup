@@ -1,3 +1,5 @@
+// Provides olgm (Google Maps) & ol-layerswitcher
+
 import cjs from '@rollup/plugin-commonjs';
 import node from '@rollup/plugin-node-resolve';
 import {terser} from 'rollup-plugin-terser';
@@ -5,9 +7,9 @@ import {terser} from 'rollup-plugin-terser';
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: 'olgm.js',
+  input: 'ol6.js',
   output: [
-    {file: 'olgm.min.js',
+    {file: 'ol6.min.js',
      format: 'es'
      }
   ],
